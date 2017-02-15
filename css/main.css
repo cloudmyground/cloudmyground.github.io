@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+}
+/***********HEADER*************/
+header {
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+header .nav{
+  float: right;
+}
+header .nav li{
+  display: inline-block;
+}
+header .nav a{
+  text-decoration: none;
+  color:#000;
+}
+header .nav a:hover, header .nav a:focus{
+  background: #7eeeff;
+}
+header h1{
+  margin:150px 0 0 10px;;
+  text-align: left;
+  font-size: 40px;
+  color: #000;
+
+  line-height: 80px;
+}
+header h1 span {
+  border-bottom: 5px solid #fff;
+}
+/***********Main*************/
+main {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 1200px;
+}
+main .thumbnail{
+  border: 0;
+  padding: 0;
+  box-shadow: 4px 4px 10px grey;
+  image-size: 100%;
+}
+#work {
+  position: relative;
+  top: -20px;
+}
+/***********Footer*************/
+footer {
+  background: #000;
+  height: 100px;
+  padding: 30px 10px;
+  margin-top:30px;
+  color: #fff;
+}
+
+footer a{
+  margin-right: 20px;
+  color: #fff;
+}
