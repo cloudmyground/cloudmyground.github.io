@@ -21,9 +21,12 @@ header .nav li{
 header .nav a{
   text-decoration: none;
   color:#000;
+  margin: 20px 0 0px 20px;
+  padding: 0px;
 }
 header .nav a:hover, header .nav a:focus{
-  background: #7eeeff;
+  background: transparent;
+  border-bottom: 4px solid white;
 }
 header h1{
   margin:150px 0 0 10px;;
